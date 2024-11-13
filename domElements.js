@@ -1,0 +1,9 @@
+export var clocks = document.querySelector("#clocks");
+export var select = document.querySelector("#font-select");
+export var textColorInput = document.querySelector("#text-color-input");
+export var backgroundColorInput = document.querySelector("#background-color-input");
+export var textSizeInput = document.querySelector("#text-size-input");
+export var saveSettingsButton = document.querySelector("#save-settings-button");
+export var goCrazyButton = document.querySelector("#go-crazy-button");
+export var iFellLuckyButton = document.querySelector("#i-feel-lucky-button");
+export var html = document.querySelector("html");

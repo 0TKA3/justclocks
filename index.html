@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Antonio:wght@100..700&family=Chokokutai&family=Inconsolata:wght@200..900&family=League+Gothic&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Monoton&family=Rubik+Bubbles&family=Rye&family=Sankofa+Display&family=Silkscreen:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Spicy+Rice&display=swap"
+      rel="stylesheet" />
+    <title>justclocks</title>
+  </head>
+  <body>
+    <h1 id="clocks">00:00:00</h1>
+    <div id="settings" class="scale-in-ver-top">
+      <div class="settings-item">
+        <h2>Font</h2>
+        <select name="font-select" id="font-select"></select>
+      </div>
+      <div class="settings-item">
+        <h2>Text color</h2>
+        <input id="text-color-input" type="color" />
+      </div>
+      <div class="settings-item">
+        <h2>Text size</h2>
+        <input id="text-size-input" type="number" />
+      </div>
+      <div class="settings-item">
+        <h2>Background color</h2>
+        <input id="background-color-input" type="color" />
+      </div>
+      <div class="settings-item">
+        <button id="i-feel-lucky-button">I feel lucky</button>
+      </div>
+      <div class="settings-item">
+        <button id="go-crazy-button">Go crazy</button>
+      </div>
+      <div class="settings-item">
+        <button id="save-settings-button">Save settings</button>
+      </div>
+    </div>
+    <script type="module" defer src="/index.js"></script>
+    <script type="module" async src="/settings.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+export var fontsList = [
+  "Anton",
+  "Monoton",
+  "Inconsolata",
+  "Source Code Pro",
+  "Libre Baskerville",
+  "Chokokutai",
+  "Spicy Rice",
+  "Amatic SC",
+  "Silkscreen",
+  "Rubik Bubbles",
+  "League Gothic",
+  "Antonio",
+  "Sankofa Display",
+  "Rye",
+];
