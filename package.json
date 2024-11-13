@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://0TKA3.github.io/justclocks/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
